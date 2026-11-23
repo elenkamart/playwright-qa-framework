@@ -1,4 +1,4 @@
-const { test, expect } = require('../../fixtures');
+import { test, expect } from '../../fixtures';
 
 test.describe('Cart', () => {
   test('adding an item updates the cart badge @smoke', async ({ loggedInInventory }) => {
